@@ -1,1 +1,1 @@
-binds a USB serial converter to a Telnet client
+binds a USB serial converter to a Websocket client
