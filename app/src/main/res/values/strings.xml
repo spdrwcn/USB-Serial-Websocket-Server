@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">USB Serial WebSocket Server</string>
+    <string name="started_please_connect">Started, please connect to:</string>
+    <string name="not_started">Not started</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="tcp_port_to_listen">WebSocket port to listen</string>
+    <string name="baud_rate">Baud rate</string>
+    <string name="data_bits">Data bits</string>
+    <string name="stop_bits">Stop bits</string>
+    <string name="parity">Parity</string>
+    <string name="started">started</string>
+    <string name="device_not_found">Error: USB serial device not found</string>
+    <string name="missing_usb_device_permission">Error: missing USB device permission</string>
+    <string name="error">Error:</string>
+    <string name="stopped">stopped</string>
+    <string name="already_started">Already started</string>
+    <string name="remove_lf">Convert client\'s CR-LF to CR</string>
+    <string name="autostart_on_device_connect">Autostart</string>
+    <string name="local_only">Local connections only</string>
+    <string name="port_id">Port ID</string>
+    <string name="invalid_port_id">Invalid port ID. Note: most devices have just one port - #0.</string>
+    <string name="local_only_help">Enable it to restrict the server to local connections\u00A0only</string>
+    <string name="tcp_port_to_listen_help">Set the WebSocket port to listen for incoming\u00A0connections</string>
+    <string name="port_id_help">Select the port ID, most devices have only\u00A0port\u00A0#0</string>
+    <string name="baud_rate_help">Set the baud rate for the serial connection</string>
+    <string name="data_bits_help">Set the number of data bits for the serial connection, usually\u00A08</string>
+    <string name="stop_bits_help">Set the number of stop bits for the serial connection, usually\u00A01</string>
+    <string name="parity_help">Set the parity for the serial connection, usually\u00A0\"none\"</string>
+    <string name="remove_lf_help">Replace CR-LF with LF in case if your device expects\u00A0LF\u00A0only</string>
+    <string name="autostart_on_device_connect_help">Automatically start the server when a\u00A0device\u00A0is\u00A0connected</string>
+    <string-array name="port_id">
+        <item>Port #0</item>
+        <item>Port #1</item>
+        <item>Port #2</item>
+        <item>Port #3</item>
+    </string-array>
+    <string-array name="data_bits">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="stop_bits">
+        <item>1 stop bit</item>
+        <item>1.5 stop bits</item>
+        <item>2 stop bits</item>
+    </string-array>
+    <string-array name="parity">
+        <item>None</item>
+        <item>Odd</item>
+        <item>Even</item>
+        <item>Mark</item>
+        <item>Space</item>
+    </string-array>
+    <string-array name="autostart">
+        <item>Disabled</item>
+        <item>Enabled</item>
+        <item>+Autoclose</item>
+    </string-array>
+</resources>
