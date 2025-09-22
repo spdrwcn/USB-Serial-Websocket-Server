@@ -1,6 +1,6 @@
 # USB串口WebSocket服务器
 
-Android应用程序，将USB串口转换器绑定到WebSocket客户端，基于 [usb-serial-telnet-server](https://github.com/ClusterM/usb-serial-telnet-server) 修改而来。
+Android应用程序，将USB串口转换器绑定到WebSocket服务端，基于 [usb-serial-telnet-server](https://github.com/ClusterM/usb-serial-telnet-server) 修改而来。
 
 只需将USB串口适配器连接到Android设备的USB OTG端口，启动此应用程序，然后使用任何WebSocket客户端连接到它，例如：
 * 使用同一Android设备上的浏览器（连接到localhost）
